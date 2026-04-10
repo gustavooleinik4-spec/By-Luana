@@ -1,32 +1,3 @@
-@media (max-width: 950px){
-      #makes{
-        flex-direction: column;
-    }
-    #secao2{
-        flex-direction: column;
-        display: flex;
-        align-items: center;
-    }
-
-    #parte-foto{
-        max-width: 90%;
-    }
-
-    #parte-texto{
-        max-width: 90%;
-    }
-
-    #borda-texto{
-        width: 95%;
-        height: 100%;
-        max-height: max-content;
-
-           h2{
-            font-size: 95%;
-    }
-    }
-}
-
 body{
     margin: 0;
     display: flex;
@@ -215,5 +186,34 @@ body{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         max-width: 95%;
         max-height: 95%;
+    }
+}
+
+@media (max-width: 950px){
+      #makes{
+        flex-direction: column;
+    }
+    #secao2{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+    #parte-foto{
+        max-width: 90%;
+    }
+
+    #parte-texto{
+        max-width: 90%;
+    }
+
+    #borda-texto{
+        width: 95%;
+        height: 100%;
+        max-height: max-content;
+
+           h2{
+            font-size: 95%;
+    }
     }
 }
